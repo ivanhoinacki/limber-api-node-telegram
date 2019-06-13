@@ -1,22 +1,20 @@
-# telegram-node-bot
+# limber-api-node-telegram
 Very powerful module for creating Telegram bots.
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KDM7K3BBVV2E8)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SU3S9H93WFG86&source=url)
 
-[Full API reference](http://nabovyan.xyz/telegram-node-bot/)
-
-[help chat](http://nabovyan.xyz/tg-dev-chat)
+![donate](QRCode.png)
 
 ## Installation
 
 To install the stable version:
 
 ```bash
-npm install --save telegram-node-bot
+npm install --save limber-api-node-telegram
 ```
 
 This assumes you are using [npm](https://www.npmjs.com/) as your package manager.
-If you don’t, you can access these files on [unpkg](https://unpkg.com/telegram-node-bot/), download them, or point your package manager to them.
+If you don’t, you can access these files on [unpkg](https://unpkg.com/limber-api-node-telegram/), download them, or point your package manager to them.
 
 ## Whats new in 4.0?
 
@@ -34,7 +32,7 @@ Now let's write simple bot!
 ```js
 'use strict'
 
-const Telegram = require('telegram-node-bot')
+const Telegram = require('limber-api-node-telegram')
 const TelegramBaseController = Telegram.TelegramBaseController
 const TextCommand = Telegram.TextCommand
 const tg = new Telegram.Telegram('YOUR_TOKEN')
@@ -62,7 +60,6 @@ tg.router
 ```
 That's it!
 
-![Bot](ScreenShot.png)
 
 ## Introduction
 
@@ -572,7 +569,7 @@ Lets say you have some function that you want to be in scope, now you can do tha
 ```js
 'use strict'
 
-const Telegram = require('telegram-node-bot')
+const Telegram = require('limber-api-node-telegram')
 const TelegramBaseController = Telegram.TelegramBaseController
 const BaseScopeExtension = Telegram.BaseScopeExtension
 const tg = new Telegram.Telegram('YOUR_TOKEN')
@@ -628,11 +625,9 @@ By path:
 $.sendPhoto(InputFile.byFilePath('path/to/file')) or $.sendPhoto({ path: 'path/to/file'})
 ```
 
-[Full API reference](http://nabovyan.xyz/telegram-node-bot/)
-
 ## License
 
-Copyright (c) 2016 Narek Abovyan
+Copyright (c) 2019 Ivan Hoinacki
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
