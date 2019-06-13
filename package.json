@@ -1,6 +1,6 @@
 {
   "_from": "limber-api-node-telegram",
-  "_id": "limber-api-node-telegram@1.0.1",
+  "_id": "limber-api-node-telegram@1.0.2",
   "_inBundle": false,
   "_integrity": "sha1-H1Zay+iZJbASdlZgZpbYdhvqGQc=",
   "_location": "/limber-api-node-telegram",
@@ -58,8 +58,7 @@
     "url": "git+https://github.com/ivanhoinacki/limber-api-node-telegram.git"
   },
   "scripts": {
-    "prepublish": "node api-scheme/GenerateTGModels.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
