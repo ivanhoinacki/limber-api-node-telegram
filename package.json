@@ -1,0 +1,65 @@
+{
+  "_from": "limber-api-node-telegram",
+  "_id": "limber-api-node-telegram@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-H1Zay+iZJbASdlZgZpbYdhvqGQc=",
+  "_location": "/limber-api-node-telegram",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "limber-api-node-telegram",
+    "name": "limber-api-node-telegram",
+    "escapedName": "limber-api-node-telegram",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/limber-api-node-telegram/-/limber-api-node-telegram-4.0.5.tgz",
+  "_shasum": "1f565acbe89925b0127656606696d8761bea1907",
+  "_spec": "limber-api-node-telegram",
+  "_where": "C:\\Users\\ivan_\\gitLab\\limber-api-bot\\server",
+  "author": {
+    "name": "ivanhoinacki",
+    "email": "ivanhweb@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ivanhoinacki/limber-api-node-telegram/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "tiny_request": "latest"
+  },
+  "deprecated": false,
+  "description": "Module for creating Telegram bots.",
+  "devDependencies": {
+    "cheerio": "^0.20.0",
+    "ink-docstrap": "latest",
+    "jsdoc": "latest"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/ivanhoinacki/limber-api-node-telegram",
+  "keywords": [
+    "telegram",
+    "bot",
+    "API"
+  ],
+  "license": "MIT",
+  "main": "lib/Telegram.js",
+  "name": "limber-api-node-telegram",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanhoinacki/limber-api-node-telegram.git"
+  },
+  "scripts": {
+    "prepublish": "node api-scheme/GenerateTGModels.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
