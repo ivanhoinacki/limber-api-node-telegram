@@ -16,13 +16,6 @@ npm install --save limber-api-node-telegram
 This assumes you are using [npm](https://www.npmjs.com/) as your package manager.
 If you don’t, you can access these files on [unpkg](https://unpkg.com/limber-api-node-telegram/), download them, or point your package manager to them.
 
-## Whats new in 4.0?
-
-* Bug fixes
-* Clustering
-* New router
-* Web admin
-
 ## Get started
 
 First of all you need to create your bot and get Token, you can do it right in telegram, just write to @BotFather.
